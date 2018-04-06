@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Vor Security")]
-[assembly: AssemblyDescription("Contains a Vulnerability Source which connects to Vor Security.")]
+[assembly: AssemblyTitle("Sonatype")]
+[assembly: AssemblyDescription("Contains a Vulnerability Source which connects to Sonatype's OSS Index. Previously, this was the Vor Security Extension.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Inedo, LLC")]
 [assembly: AssemblyProduct("ProGet")]

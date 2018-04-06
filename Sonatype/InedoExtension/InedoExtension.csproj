@@ -7,8 +7,8 @@
     <ProjectGuid>{29857BBB-6AE5-4B5E-A7AC-6A3D8CC78851}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Inedo.ProGet.Extensions.VorSecurity</RootNamespace>
-    <AssemblyName>VorSecurity</AssemblyName>
+    <RootNamespace>Inedo.ProGet.Extensions.Sonatype</RootNamespace>
+    <AssemblyName>Sonatype</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VulnerabilitySources\VorSecurityVulnerabilitySource.cs" />
+    <Compile Include="VulnerabilitySources\OSSIndexVulnerabilitySource.cs" />
     <Compile Include="VulnerabilitySources\PackageId.cs" />
     <Compile Include="VulnerabilitySources\PackageVulnerabilities.cs" />
     <Compile Include="VulnerabilitySources\Vulnerability.cs" />
