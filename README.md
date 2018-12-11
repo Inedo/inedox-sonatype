@@ -1,6 +1,6 @@
 # inedox-sonatype
 
-[![Build status](https://ci.appveyor.com/api/projects/status/7ug1vk2w6uje6ij1/branch/master?svg=true)](https://ci.appveyor.com/project/Inedo/inedox-sonatype/branch/master)
+[![Build status](https://buildmaster.inedo.com/api/ci-badges/image?API_Key=badges&$ApplicationId=8)](https://buildmaster.inedo.com/api/ci-badges/link?API_Key=badges&$ApplicationId=8)
 
 Contains a Vulnerability Source which connects to Sonatype's OSS Index.
 
