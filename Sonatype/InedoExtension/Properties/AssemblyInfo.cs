@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
+using Inedo.Extensibility;
 
 [assembly: AssemblyTitle("Sonatype")]
 [assembly: AssemblyDescription("Contains a Vulnerability Source which connects to Sonatype's OSS Index. Previously, this was the Vor Security Extension.")]
@@ -9,3 +10,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0")]
 [assembly: AssemblyFileVersion("1.0.0")]
 [assembly: ComVisible(false)]
+
+[assembly: AppliesTo(InedoProduct.ProGet)]
